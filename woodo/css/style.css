@@ -489,7 +489,7 @@ button {
   width: 100%;
   float: left;
   background-color: #676766;
-  height: auto;
+  height: 500px;
   margin-top: 90px;
   padding-bottom: 30px;
 }
@@ -679,7 +679,7 @@ ul.location li img {
 #carouselExampleIndicators a.carousel-control-prev {
   position: absolute;
   left: 110px;
-  top: 600px;
+  top: 640px;
   background-color: #2f2c2c;
 }
 
@@ -721,7 +721,7 @@ ul.location li img {
 #my_carousel a.carousel-control-prev {
   position: absolute;
   left: -90px;
-  top: 300px;
+  top: 58%;
   background-color: #f397ff;
 }
 
@@ -747,7 +747,7 @@ ul.location li img {
 #my_carousel a.carousel-control-next {
   position: absolute;
   left: 70rem;
-  top: 56%;
+  top: 58%;
   background-color: #676766;
 }
 
