@@ -678,8 +678,8 @@ ul.location li img {
 
 #carouselExampleIndicators a.carousel-control-prev {
   position: absolute;
-  left: 110px;
-  top: 640px;
+  left: 2%;
+  top: 70%;
   background-color: #2f2c2c;
 }
 
@@ -703,8 +703,8 @@ ul.location li img {
 }
 #carouselExampleIndicators a.carousel-control-next {
   position: absolute;
-  left: 115px;
-  top: 82%;
+  left: 2%;
+  top: 80%;
   background-color: #2f2c2c;
 }
 #carouselExampleIndicators .carousel-control-prev,
