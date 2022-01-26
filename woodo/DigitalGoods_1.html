@@ -230,7 +230,7 @@
                 width: 100%;
               "
             >
-              <form
+              <div
                 style="
                   display: flex;
                   flex-direction: column;
@@ -241,8 +241,9 @@
               >
                 <div
                   style="
-                    width: 70%;
-                    height: 100px;
+                    margin: 5px 0 0 0;
+                    width: 100%;
+                    height: 50px;
                     position: relative;
                     display: flex;
                     flex-direction: column;
@@ -256,16 +257,16 @@
                 </div>
                 <div
                   style="
-                    margin: -20px 10px 20px 10px;
+                    margin: 0px 10px 50px 10px;
                     background-color: #f6b4ff;
-                    height: 50px;
-                    width: 220px;
+                    height: 40px;
+                    width: 100%;
                     border-radius: 20px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     color: white;
-                    font-size: 25px;
+                    font-size: 20px;
                     font-weight: 600;
                     position: relative;
                     padding: 10px;
@@ -273,13 +274,13 @@
                   "
                 >
                   <a
-                    href=""
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSdw0UpkuI5n2K71i_OE02jMFoSoB8Skx2MyyhWbo3K6XqRlnw/viewform?usp=sf_link"
                     style="display: flex; text-align: center"
-                    onclick="alert('작성해준 메일로 인증 메일을 보내드렸습니다. 인증완료 후, 에셋을 메일을 통해 보내드립니다. (인증메일이 지연될 시, 5~10분정도 시간이 걸릴수도 있습니다.')"
+                    onclick="alert('설문에 참여해주셔서 진심으로 감사드립니다. 설문 완료이후, 에셋을 메일을 통해 보내드립니다. (메일이 지연될 시, 5~10분정도 시간이 걸릴수도 있습니다.')"
                     >설문하러가기</a
                   >
                 </div>
-              </form>
+              </div>
             </div>
             <footer
               style="
@@ -338,17 +339,19 @@
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6">
             <h2 class="useful_text">Newsletter</h2>
-            <form
-              id="gform"
-              action="https://script.google.com/macros/s/AKfycbxsu1F6NtbBtlehMLMCobPkxEWv4BKE6jxUZU0a/exec"
-            >
+            <form>
               <input
                 type="text"
                 class="address_send"
                 placeholder="Address"
                 name="Email"
               />
-              <button class="subscribe_bt">Subscribe</button>
+              <button
+                class="subscribe_bt"
+                onclick="alert('뉴스레터 가입이 성공적으로 완료 되었습니다.')"
+              >
+                Subscribe
+              </button>
             </form>
           </div>
         </div>
