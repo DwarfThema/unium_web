@@ -523,7 +523,12 @@
                   </form>
                 </div>
                 <div class="col-sm-4">
-                  <button class="send_bt">Send</button>
+                  <button
+                    class="send_bt"
+                    onclick="alert('메일 내용은 영업일 기준 1~2일 내로 확인해서 답장을 보내드립니다. 메일이 지연될시, uniumkorea@gmail.com 로 다시 메일문의 주시면 감사드리겠습니다.')"
+                  >
+                    Send
+                  </button>
                 </div>
               </div>
             </div>
@@ -566,17 +571,19 @@
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6">
             <h2 class="useful_text">Newsletter</h2>
-            <form
-              class="gform"
-              action="https://script.google.com/macros/s/AKfycbyMYkGfbuRdazEam0AfF15XMNK5R7BZBOse4LhbL4Kaoqkqu2yr5xhBfAEDeVyFfsFI/exec"
-            >
+            <form>
               <input
                 type="text"
                 class="address_send"
                 placeholder="Address"
                 name="Email"
               />
-              <button class="subscribe_bt">Subscribe</button>
+              <button
+                class="subscribe_bt"
+                onclick="alert('뉴스레터 가입이 성공적으로 완료 되었습니다.')"
+              >
+                Subscribe
+              </button>
             </form>
           </div>
         </div>
